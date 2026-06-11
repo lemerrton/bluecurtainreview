@@ -535,18 +535,17 @@ footer .fineprint {
 .kit-title { font-family: var(--serif); font-size: 19px; font-weight: 700; color: var(--ink); margin-bottom: 10px; }
 .kit-title span { white-space: nowrap; }
 .kit-desc { font-size: 13.5px; color: var(--ink-soft); line-height: 1.55; margin-bottom: 18px; }
-.kit-btn {
+.kit-link {
   display: inline-block;
   font-family: var(--sans);
   font-size: 14px;
   font-weight: 600;
-  color: #fff;
-  background: #2a2018;
-  padding: 11px 28px;
-  border-radius: 7px;
-  transition: background 0.15s;
+  color: var(--blue-bright);
+  border-bottom: 2px solid var(--gold);
+  padding-bottom: 2px;
+  transition: color 0.15s;
 }
-.kit-btn:hover { background: #170f09; }
+.kit-link:hover { color: var(--blue); }
 @media (max-width: 560px) { .kit-cards { grid-template-columns: 1fr; } }
 
 /* CTA */
