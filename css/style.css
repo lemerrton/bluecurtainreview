@@ -141,6 +141,7 @@ img { max-width: 100%; display: block; }
   font-size: 64px;
 }
 .hero .thumb { height: 320px; border: 1px solid var(--rule); font-size: 96px; }
+img.thumb, img.feature-art { object-fit: cover; width: 100%; }
 .t-coffee  { background: linear-gradient(135deg, #3b2f2f, #7a5c45); }
 .t-air     { background: linear-gradient(135deg, #2c3e50, #5d7a99); }
 .t-desk    { background: linear-gradient(135deg, #355c4a, #7da987); }
