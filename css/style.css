@@ -345,6 +345,25 @@ footer .fineprint {
   .topbar .wrap { justify-content: center; }
 }
 
+/* sponsored card on homepage */
+.card.sponsored { position: relative; border-color: var(--gold); }
+.card.sponsored::before {
+  content: "Sponsored";
+  position: absolute;
+  top: 10px; left: 10px;
+  z-index: 1;
+  font-family: var(--sans);
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--ink);
+  background: var(--gold);
+  padding: 4px 9px;
+  border-radius: 3px;
+}
+.card.sponsored .ad-kicker { color: #8a7a4a; }
+
 /* ============ Advertorial ============ */
 .ad-banner {
   background: #efe9da;
